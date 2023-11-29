@@ -1,0 +1,233 @@
+[
+    {
+      "_id": "COMM1",
+      "name": "Community name 1",
+      "address": "Address 1",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India",
+      "zipcode": 560033,
+      "email": "name@email.com",
+      "ph": "9900990011"
+    },
+    {
+      "_id": "COMM2",
+      "name": "Community name 2",
+      "address": "Address 2",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India",
+      "zipcode": 560034,
+      "email": "name@email.com",
+      "ph": "9900990011"
+    },
+    {
+      "_id": "COMM3",
+      "name": "Community name 3",
+      "address": "Address 3",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India",
+      "zipcode": 560035
+    },
+    {
+      "_id": "COMM4",
+      "name": "Community name 4",
+      "address": "Address 4",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India",
+      "zipcode": 560036,
+      "email": "name@email.com",
+      "ph": "9900990011"
+    },
+    {
+      "_id": "COMM5",
+      "name": "Community name 5",
+      "address": "Address 5",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India",
+      "zipcode": 560037
+    },
+    {
+      "_id": "COMM6",
+      "name": "Community name 6",
+      "address": "Address 6",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India",
+      "zipcode": 560038
+    },
+    {
+      "_id": "COMM7",
+      "name": "Community name 7",
+      "address": "Address 7",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India",
+      "zipcode": 560039
+    },
+    {
+      "_id": "COMM8",
+      "name": "Community name 8",
+      "address": "Address 8",
+      "city": "Delhi",
+      "state": "Delhi",
+      "country": "India",
+      "zipcode": 110010
+    },
+    {
+      "_id": "COMM9",
+      "name": "Community name 9",
+      "address": "Address 9",
+      "city": "Delhi",
+      "state": "Delhi",
+      "country": "India",
+      "zipcode": 110011
+    },
+    {
+      "_id": "COMM10",
+      "name": "Community name 10",
+      "address": "Address 10",
+      "city": "Delhi",
+      "state": "Delhi",
+      "country": "India",
+      "zipcode": 110012
+    },
+    {
+      "_id": "COMM11",
+      "name": "Community name 11",
+      "address": "Address 11",
+      "city": "Delhi",
+      "state": "Delhi",
+      "country": "India",
+      "zipcode": 110013
+    },
+    {
+      "_id": "COMM12",
+      "name": "Community name 12",
+      "address": "Address 12",
+      "city": "Delhi",
+      "state": "Delhi",
+      "country": "India",
+      "zipcode": 110014
+    },
+    {
+      "_id": "COMM13",
+      "name": "Community name 13",
+      "address": "Address 13",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "country": "India",
+      "zipcode": 500015
+    },
+    {
+      "_id": "COMM14",
+      "name": "Community name 14",
+      "address": "Address 14",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "country": "India",
+      "zipcode": 500016
+    },
+    {
+      "_id": "COMM15",
+      "name": "Community name 15",
+      "address": "Address 15",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "country": "India",
+      "zipcode": 500017
+    },
+    {
+      "_id": "COMM16",
+      "name": "Community name 16",
+      "address": "Address 16",
+      "city": "Delhi",
+      "state": "Delhi",
+      "country": "India",
+      "zipcode": 110018
+    },
+    {
+      "_id": "COMM17",
+      "name": "Community name 17",
+      "address": "Address 17",
+      "city": "Delhi",
+      "state": "Delhi",
+      "country": "India",
+      "zipcode": 110019
+    },
+    {
+      "_id": "COMM18",
+      "name": "Community name 18",
+      "address": "Address 18",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India",
+      "zipcode": 560050
+    },
+    {
+      "_id": "COMM19",
+      "name": "Community name 19",
+      "address": "Address 19",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India",
+      "zipcode": 560051
+    },
+    {
+      "_id": "COMM20",
+      "name": "Community name 20",
+      "address": "Address 20",
+      "city": "Mumbai",
+      "state": "Maharastra",
+      "country": "India",
+      "zipcode": 400022
+    },
+    {
+      "_id": "COMM21",
+      "name": "Community name 21",
+      "address": "Address 21",
+      "city": "Mumbai",
+      "state": "Maharastra",
+      "country": "India",
+      "zipcode": 400023
+    },
+    {
+      "_id": "COMM22",
+      "name": "Community name 22",
+      "address": "Address 22",
+      "city": "Mumbai",
+      "state": "Maharastra",
+      "country": "India",
+      "zipcode": 400024
+    },
+    {
+      "_id": "COMM23",
+      "name": "Community name 23",
+      "address": "Address 23",
+      "city": "Mumbai",
+      "state": "Maharastra",
+      "country": "India",
+      "zipcode": 400025
+    },
+    {
+      "_id": "COMM24",
+      "name": "Community name 24",
+      "address": "Address 24",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India",
+      "zipcode": 560056
+    },
+    {
+      "_id": "COMM25",
+      "name": "Community name 25",
+      "address": "Address 25",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India",
+      "zipcode": 560057
+    }
+  ]
