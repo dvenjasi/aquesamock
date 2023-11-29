@@ -1,0 +1,82 @@
+[
+  {
+    "_id": {
+      "$oid": "6227418292abeb2d941f316f"
+    },
+    "community": "Aha Ohoo Community",
+    "notificationMethod": "PUSH",
+    "creationDateTime": {
+      "$date": {
+        "$numberLong": "1646740179909"
+      }
+    },
+    "notificationType": "LEAKALERT",
+    "notificationStatus": "DELIVERED",
+    "messageTitle": "Leak Detected",
+    "messageBody": "UNusually long continuous flow detected",
+    "showInApp": true,
+    "read": false,
+    "actionCompleted": false,
+    "_class": "Notification"
+  },
+  {
+    "_id": {
+      "$oid": "622742d492abeb2d941f3188"
+    },
+    "community": "Aha Ohoo Community",
+    "notificationMethod": "PUSH",
+    "notificationType": "LEAKALERT",
+    "notificationStatus": "DELIVERED",
+    "creationDateTime": {
+      "$date": {
+        "$numberLong": "1646740179909"
+      }
+    },
+    "messageTitle": "Leak Detected",
+    "messageBody": "UNusually long continuous flow detected",
+    "showInApp": false,
+    "read": false,
+    "actionCompleted": false,
+    "_class": "Notification"
+  },
+  {
+    "_id": {
+      "$oid": "622745dd92abeb2d941f31a6"
+    },
+    "community": "Aha Ohoo Community",
+    "notificationMethod": "PUSH",
+    "notificationType": "VALVEOFF",
+    "notificationStatus": "EXECUTED",
+    "creationDateTime": {
+      "$date": {
+        "$numberLong": "1646740957327"
+      }
+    },
+    "messageTitle": "Water Flow stopped",
+    "messageBody": "User Chandu operated valve to stop the water flow at 16-Oct-2023 09:30AM IST",
+    "showInApp": true,
+    "read": false,
+    "actionCompleted": false,
+    "_class": "Notification"
+  },
+  {
+    "_id": {
+      "$oid": "6274e186fa838b5aa69087a4"
+    },
+    "community": "Water Loo Estate",
+    "notificationMethod": "PUSH",
+    "notificationType": "VALVEON",
+    "notificationStatus": "EXECUTED",
+    "creationDateTime": {
+      "$date": {
+        "$numberLong": "1651827078566"
+      }
+    },
+    "messageTitle": "Water Flow resumed",
+    "messageBody": "User Chandu operated valve to resume the water flow at 16-Oct-2023 09:30AM IST",
+    "showInApp": false,
+    "read": false,
+    "actionCompleted": false,
+    "_class": "Notification"
+  }
+]

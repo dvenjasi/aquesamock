@@ -1,0 +1,1114 @@
+{
+  "master": {
+    "_id": {
+      "$oid": "62322b9d731d5c1245ad0f8b"
+    },
+    "cfiId": "ckb",
+    "cfiName": {
+      "legalEntityName": "Cross Keys Bank",
+      "entityType": "Credit Union",
+      "shortName": "Cross Keys Bank",
+      "registrationNo": "",
+      "registrationDate": "",
+      "registrationState": "LA"
+    },
+    "fdicNo": "9322",
+    "companyAddress": {
+      "street": "307 Plank Road",
+      "city": "Saint Joseph",
+      "stateCode": "LA",
+      "zipCode": "71366",
+      "countryCode": "US",
+      "landTelephone": "888-766-3246"
+    },
+    "DDAHolders": 5900,
+    "cfiTimeZone": "GMT-05:00",
+    "cfiBIN": [
+      "40495700"
+    ],
+    "creditReportSource": "EQUIFAX",
+    "equifaxSettings": {
+      "memberNumber": "250BB00144",
+      "securityCode": "T22",
+      "mlaMemberNumber": "250BB00151",
+      "mlaSecurityCode": "T33"
+    },
+    "adverseActionAgency": {
+      "name": "The Federal Deposit Insurance Corporation",
+      "addressLine1": "1100 Walnut St.",
+      "addressLine2": "Suite 2100",
+      "city": "Kansas City",
+      "stateCode": "MO",
+      "zipCode": "64106",
+      "phoneNumber": "816-234-8000"
+    },
+    "forceKba": true,
+    "openRegistration": true,
+    "notificationEmail": "boris@quilosolutions.com,sridhar@quilosolutions.com",
+    "kycModel": "GLOBALL2",
+    "allowNonCustomerOnboarding": false,
+    "_class": "CFIMaster"
+  },
+  "portfolio": {
+    "_id": {
+      "$oid": "62322c496018d024174343d4"
+    },
+    "cfiId": "ckb",
+    "cfiPortfolioId": "PERSONALLOAN",
+    "portfolioName": "PERSONALLOAN",
+    "loanIssuingDisabled": false,
+    "costOfFunds": {
+      "$numberDecimal": "0.0022"
+    },
+    "targetNetYield": {
+      "$numberDecimal": "0.05"
+    },
+    "targetCreditScore": 715,
+    "minimumCreditScore": 660,
+    "noCcMinCreditScore": 625,
+    "creditHistoryUpperBoundary": 24,
+    "initialPeriodMaxTerm": 12,
+    "mode": "normal",
+    "portfolioQuality": {
+      "$numberDecimal": "691.0391888815"
+    },
+    "portfolioQualityExpMovingAvg": {
+      "$numberDecimal": "710.7893085038668"
+    },
+    "outstandingPrincipal": {
+      "$numberDecimal": "22135.36"
+    },
+    "outstandingPrincipalWeight": {
+      "$numberDecimal": "0.6959001344455207"
+    },
+    "fastThreeMonthConversionRate": {
+      "$numberDecimal": "0.36"
+    },
+    "maxLoanAmount": {
+      "500": [
+        0,
+        619
+      ],
+      "2500": [
+        620,
+        659
+      ],
+      "15000": [
+        660,
+        719
+      ],
+      "20000": [
+        720,
+        779
+      ],
+      "25000": [
+        780,
+        850
+      ]
+    },
+    "terms": [
+      3,
+      6,
+      9,
+      12,
+      24,
+      36,
+      48,
+      60
+    ],
+    "accounts": {
+      "cfiSettlementAccountNo": "1008013108",
+      "cfiSettlementAccountRtn": "111102389",
+      "southStateAccountNo": "3220010099604057",
+      "southStateAccountRtn": "053012838"
+    },
+    "_class": "CFIPortfolio"
+  },
+  "fnf": [
+    {
+      "_id": {
+        "$oid": "6235ec3cb2b72c82454c198e"
+      },
+      "cfiId": "ckb",
+      "phoneNumber": "13182308745",
+      "allowNotCfiAccountHolder": false
+    },
+    {
+      "_id": {
+        "$oid": "6235ec31b2b72c82454c198d"
+      },
+      "cfiId": "ckb",
+      "phoneNumber": "13182458668",
+      "allowNotCfiAccountHolder": false
+    },
+    {
+      "_id": {
+        "$oid": "6235ecaab2b72c82454c1994"
+      },
+      "cfiId": "ckb",
+      "phoneNumber": "13183314217",
+      "allowNotCfiAccountHolder": false
+    },
+    {
+      "_id": {
+        "$oid": "6235ec88b2b72c82454c1991"
+      },
+      "cfiId": "ckb",
+      "phoneNumber": "13183319021",
+      "allowNotCfiAccountHolder": false
+    },
+    {
+      "_id": {
+        "$oid": "6235ec9fb2b72c82454c1993"
+      },
+      "cfiId": "ckb",
+      "phoneNumber": "13183411632",
+      "allowNotCfiAccountHolder": false
+    },
+    {
+      "_id": {
+        "$oid": "6235ecc0b2b72c82454c1996"
+      },
+      "cfiId": "ckb",
+      "phoneNumber": "13183727122",
+      "allowNotCfiAccountHolder": false
+    },
+    {
+      "_id": {
+        "$oid": "6235ec78b2b72c82454c1990"
+      },
+      "cfiId": "ckb",
+      "phoneNumber": "13183767807",
+      "allowNotCfiAccountHolder": false
+    },
+    {
+      "_id": {
+        "$oid": "6235ec94b2b72c82454c1992"
+      },
+      "cfiId": "ckb",
+      "phoneNumber": "13184398522",
+      "allowNotCfiAccountHolder": false
+    },
+    {
+      "_id": {
+        "$oid": "6235ec6cb2b72c82454c198f"
+      },
+      "cfiId": "ckb",
+      "phoneNumber": "13186144082",
+      "allowNotCfiAccountHolder": false
+    },
+    {
+      "_id": {
+        "$oid": "6235ebfdb2b72c82454c198b"
+      },
+      "cfiId": "ckb",
+      "phoneNumber": "13186693511",
+      "allowNotCfiAccountHolder": false
+    },
+    {
+      "_id": {
+        "$oid": "6235ecb4b2b72c82454c1995"
+      },
+      "cfiId": "ckb",
+      "phoneNumber": "13188843999",
+      "allowNotCfiAccountHolder": false
+    }
+  ],
+  "debitcards": [
+    {
+      "_id": {
+        "$oid": "625eb24d3e2f4778fdad77f7"
+      },
+      "qCardId": "AD22109000001",
+      "tabaPayCardType": "DEBIT",
+      "qCardStatus": "ACTIVE",
+      "cfiId": "ckb",
+      "customerId": "U000000420",
+      "tabaPayAccountId": "yw8mn5MEMeKjCl-25sFrtw",
+      "expiryInfo": "2024-10",
+      "last4Digits": "2286",
+      "issuingNetwork": "visa",
+      "tabaPayNetwork": "Visa",
+      "attributes": {
+        "attributesId": "f9e0c0fb-ed5b-4e09-9059-46679c762307",
+        "sc": 200,
+        "ec": "0",
+        "card": {
+          "pull": {
+            "enabled": true,
+            "network": "Visa",
+            "type": "DEBIT",
+            "regulated": false,
+            "currency": "840",
+            "country": "840"
+          },
+          "push": {
+            "enabled": true,
+            "network": "VisaFF",
+            "type": "DEBIT",
+            "availability": "Immediate",
+            "regulated": false,
+            "currency": "840",
+            "country": "840"
+          }
+        },
+        "fees": {
+          "pull": {
+            "interchange": "0.65",
+            "network": "0.15",
+            "tabapay": "0.25"
+          },
+          "push": {
+            "interchange": "0.10",
+            "network": "0.10",
+            "tabapay": "0.25"
+          }
+        }
+      },
+      "_class": "TabaPayCards"
+    },
+    {
+      "_id": {
+        "$oid": "625eb8ee3e2f4778fdad7800"
+      },
+      "qCardId": "AD22109000003",
+      "tabaPayCardType": "DEBIT",
+      "qCardStatus": "ACTIVE",
+      "cfiId": "ckb",
+      "customerId": "U000000422",
+      "tabaPayAccountId": "C4MFnhZVMaqsl3S6SgleVg",
+      "expiryInfo": "2024-09",
+      "last4Digits": "3270",
+      "issuingNetwork": "visa",
+      "tabaPayNetwork": "Visa",
+      "attributes": {
+        "attributesId": "6d23d29f-83fc-471e-9f7f-b80013383c0e",
+        "sc": 200,
+        "ec": "0",
+        "card": {
+          "pull": {
+            "enabled": true,
+            "network": "Visa",
+            "type": "DEBIT",
+            "regulated": false,
+            "currency": "840",
+            "country": "840"
+          },
+          "push": {
+            "enabled": true,
+            "network": "VisaFF",
+            "type": "DEBIT",
+            "availability": "Immediate",
+            "regulated": false,
+            "currency": "840",
+            "country": "840"
+          }
+        },
+        "fees": {
+          "pull": {
+            "interchange": "0.65",
+            "network": "0.15",
+            "tabapay": "0.25"
+          },
+          "push": {
+            "interchange": "0.10",
+            "network": "0.10",
+            "tabapay": "0.25"
+          }
+        }
+      },
+      "_class": "TabaPayCards"
+    },
+    {
+      "_id": {
+        "$oid": "625eba196776d037d6497b41"
+      },
+      "qCardId": "AC22109000001",
+      "tabaPayCardType": "CREDIT",
+      "qCardStatus": "ACTIVE",
+      "cfiId": "ckb",
+      "customerId": "U000000422",
+      "tabaPayAccountId": "RwM1r45Vse4bYSg9nnLjlg",
+      "expiryInfo": "2025-06",
+      "last4Digits": "7146",
+      "issuingNetwork": "visa",
+      "tabaPayNetwork": "Visa",
+      "attributes": {
+        "attributesId": "beeefd44-c522-4559-866a-48017555791a",
+        "sc": 200,
+        "ec": "0",
+        "card": {
+          "pull": {
+            "enabled": true,
+            "network": "Visa",
+            "type": "CREDIT",
+            "regulated": true,
+            "currency": "840",
+            "country": "840"
+          },
+          "push": {
+            "enabled": true,
+            "network": "CCPay",
+            "type": "CREDIT",
+            "availability": "Few Business Days",
+            "regulated": false,
+            "currency": "840",
+            "country": "840"
+          }
+        },
+        "fees": {
+          "pull": {
+            "interchange": "2.15",
+            "network": "0.15",
+            "tabapay": "0.25"
+          },
+          "push": {
+            "interchange": "0.00",
+            "network": "0.25",
+            "tabapay": "0.25"
+          }
+        }
+      },
+      "_class": "TabaPayCards"
+    },
+    {
+      "_id": {
+        "$oid": "625ec55c6776d037d6497b50"
+      },
+      "qCardId": "AD22109000004",
+      "tabaPayCardType": "DEBIT",
+      "qCardStatus": "INACTIVE",
+      "cfiId": "ckb",
+      "customerId": "U000000425",
+      "tabaPayAccountId": "gwc1rMiEMKaoGxSMWnECdw",
+      "expiryInfo": "2022-05",
+      "last4Digits": "4830",
+      "issuingNetwork": "visa",
+      "tabaPayNetwork": "Visa",
+      "attributes": {
+        "attributesId": "180308ec-c510-4340-9899-aeec78b02f9e",
+        "sc": 200,
+        "ec": "0",
+        "card": {
+          "pull": {
+            "enabled": true,
+            "network": "Visa",
+            "type": "DEBIT",
+            "regulated": false,
+            "currency": "840",
+            "country": "840"
+          },
+          "push": {
+            "enabled": true,
+            "network": "VisaFF",
+            "type": "DEBIT",
+            "availability": "Immediate",
+            "regulated": false,
+            "currency": "840",
+            "country": "840"
+          }
+        },
+        "fees": {
+          "pull": {
+            "interchange": "0.65",
+            "network": "0.15",
+            "tabapay": "0.25"
+          },
+          "push": {
+            "interchange": "0.10",
+            "network": "0.10",
+            "tabapay": "0.25"
+          }
+        }
+      },
+      "_class": "TabaPayCards"
+    },
+    {
+      "_id": {
+        "$oid": "626012733e2f4778fdad787d"
+      },
+      "qCardId": "AD22110000001",
+      "tabaPayCardType": "DEBIT",
+      "qCardStatus": "ACTIVE",
+      "cfiId": "ckb",
+      "customerId": "U000000431",
+      "tabaPayAccountId": "A5QkoliEOSjIxoiv2sZGiw",
+      "expiryInfo": "2023-03",
+      "last4Digits": "0410",
+      "issuingNetwork": "visa",
+      "tabaPayNetwork": "Visa",
+      "attributes": {
+        "attributesId": "dbc34ddc-2f0d-4c54-adca-223d36cbbb9e",
+        "sc": 200,
+        "ec": "0",
+        "card": {
+          "pull": {
+            "enabled": true,
+            "network": "Visa",
+            "type": "DEBIT",
+            "regulated": false,
+            "currency": "840",
+            "country": "840"
+          },
+          "push": {
+            "enabled": true,
+            "network": "VisaFF",
+            "type": "DEBIT",
+            "availability": "Immediate",
+            "regulated": false,
+            "currency": "840",
+            "country": "840"
+          }
+        },
+        "fees": {
+          "pull": {
+            "interchange": "0.65",
+            "network": "0.15",
+            "tabapay": "0.25"
+          },
+          "push": {
+            "interchange": "0.10",
+            "network": "0.10",
+            "tabapay": "0.25"
+          }
+        }
+      },
+      "_class": "TabaPayCards"
+    }
+  ],
+  "virtualcards": [
+    {
+      "cardId": "AP22106000001",
+      "adminNumber": 53189345,
+      "cfiId": "ckb",
+      "customerId": "MDES220416043300",
+      "systemAccountNumber": "3220010099669746",
+      "expirationDate": "2025-04-30T00:00:00",
+      "loanReferences": [
+        "NONE"
+      ],
+      "idempotencyKey": "MDES220416043300",
+      "active": true,
+      "_class": "TranscardPrepaidCards"
+    },
+    {
+      "cardId": "AP22110000001",
+      "adminNumber": 53202613,
+      "cfiId": "ckb",
+      "customerId": "U000000431",
+      "systemAccountNumber": "3220010099674456",
+      "expirationDate": "2025-04-30T00:00:00",
+      "loanReferences": [
+        "L22110000001"
+      ],
+      "idempotencyKey": "TI2211000000002",
+      "active": true,
+      "_class": "TranscardPrepaidCards"
+    },
+    {
+      "cardId": "AP22117000001",
+      "adminNumber": 53233908,
+      "cfiId": "ckb",
+      "customerId": "U000000425",
+      "systemAccountNumber": "3220010099683721",
+      "expirationDate": "2025-04-30T00:00:00",
+      "loanReferences": [
+        "L22117000003"
+      ],
+      "idempotencyKey": "TI2211700000004",
+      "active": true,
+      "_class": "TranscardPrepaidCards"
+    },
+    {
+      "cardId": "AP22121000001",
+      "adminNumber": 53239634,
+      "cfiId": "ckb",
+      "customerId": "MDES220501080418",
+      "systemAccountNumber": "3220010099685445",
+      "expirationDate": "2025-04-30T00:00:00",
+      "loanReferences": [
+        "NONE"
+      ],
+      "idempotencyKey": "MDES220501080418",
+      "active": true,
+      "_class": "TranscardPrepaidCards"
+    },
+    {
+      "cardId": "AP22124000001",
+      "adminNumber": 53239614,
+      "cfiId": "ckb",
+      "customerId": "U000000445",
+      "systemAccountNumber": "3220010099685254",
+      "expirationDate": "2025-04-30T00:00:00",
+      "loanReferences": [
+        "L22124000002"
+      ],
+      "idempotencyKey": "TI2212400000002",
+      "active": true,
+      "_class": "TranscardPrepaidCards"
+    }
+  ],
+  "payments": [
+    {
+      "_id": {
+        "$oid": "625eba583e2f4778fdad7809"
+      },
+      "status": "COMPLETED",
+      "tabaPayStatus": "BATCH",
+      "qTransactionId": "P2210900000004",
+      "txReferenceId": "T22109000000001",
+      "qCardId": "AC22109000001",
+      "cfiId": "ckb",
+      "clientId": "Bqg2TLEAAct2pYCDjpc7Xg",
+      "subClientId": "0006",
+      "loanReference": "L22109000001",
+      "transactionId": "B482vf9Ese2RH8uPB08v4w",
+      "businessDate": {
+        "$date": {
+          "$numberLong": "1650326400000"
+        }
+      },
+      "valueDate": {
+        "$date": {
+          "$numberLong": "1650326400000"
+        }
+      },
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1650375256949"
+        }
+      },
+      "type": "PUSH",
+      "currency": "840",
+      "amount": {
+        "$numberDecimal": "500.00"
+      },
+      "interchangeFees": {
+        "$numberDecimal": "0.00"
+      },
+      "networkFees": {
+        "$numberDecimal": "0.25"
+      },
+      "tabapayFees": {
+        "$numberDecimal": "0.25"
+      },
+      "responses": [
+        {
+          "sc": 201,
+          "ec": "0",
+          "transactionId": "B482vf9Ese2RH8uPB08v4w",
+          "network": "CCPay",
+          "status": "BATCH",
+          "fees": {
+            "interchange": {
+              "$numberDecimal": "0.00"
+            },
+            "network": {
+              "$numberDecimal": "0.25"
+            },
+            "tabapay": {
+              "$numberDecimal": "0.25"
+            }
+          }
+        }
+      ],
+      "_class": "TabaPayTransactions",
+      "reconciled": true,
+      "reconciledAt": {
+        "$date": {
+          "$numberLong": "1650483011349"
+        }
+      },
+      "settlementValues": {
+        "interchangeFee": {
+          "$numberDecimal": "0.00"
+        },
+        "networkFee": {
+          "$numberDecimal": "-0.06"
+        },
+        "tabapayFee": {
+          "$numberDecimal": "-0.25"
+        },
+        "convenienceFee": {
+          "$numberDecimal": "0.00"
+        },
+        "settledAmount": {
+          "$numberDecimal": "-500.0"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1650483011349"
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "626014316776d037d6497be3"
+      },
+      "status": "COMPLETED",
+      "tabaPayStatus": "COMPLETED",
+      "qTransactionId": "P2211000000006",
+      "txReferenceId": "T22110000000001",
+      "qCardId": "AD22110000001",
+      "cfiId": "ckb",
+      "clientId": "Bqg2TLEAAct2pYCDjpc7Xg",
+      "subClientId": "0006",
+      "loanReference": "R22110000001",
+      "transactionId": "CxgWkJmVucH14tUZrLdDqg",
+      "businessDate": {
+        "$date": {
+          "$numberLong": "1650412800000"
+        }
+      },
+      "valueDate": {
+        "$date": {
+          "$numberLong": "1650412800000"
+        }
+      },
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1650463793304"
+        }
+      },
+      "type": "PUSH",
+      "currency": "840",
+      "amount": {
+        "$numberDecimal": "300.00"
+      },
+      "interchangeFees": {
+        "$numberDecimal": "0.10"
+      },
+      "networkFees": {
+        "$numberDecimal": "0.25"
+      },
+      "tabapayFees": {
+        "$numberDecimal": "0.25"
+      },
+      "responses": [
+        {
+          "sc": 200,
+          "ec": "0",
+          "transactionId": "CxgWkJmVucH14tUZrLdDqg",
+          "network": "VisaFF",
+          "networkRc": "00",
+          "approvalCode": "678472",
+          "status": "COMPLETED",
+          "fees": {
+            "interchange": {
+              "$numberDecimal": "0.10"
+            },
+            "network": {
+              "$numberDecimal": "0.25"
+            },
+            "tabapay": {
+              "$numberDecimal": "0.25"
+            }
+          },
+          "card": {
+            "last4": "0410",
+            "expirationDate": "202303"
+          }
+        }
+      ],
+      "_class": "TabaPayTransactions",
+      "reconciled": true,
+      "reconciledAt": {
+        "$date": {
+          "$numberLong": "1650569410446"
+        }
+      },
+      "settlementValues": {
+        "interchangeFee": {
+          "$numberDecimal": "-0.05"
+        },
+        "networkFee": {
+          "$numberDecimal": "-0.27"
+        },
+        "tabapayFee": {
+          "$numberDecimal": "-0.25"
+        },
+        "convenienceFee": {
+          "$numberDecimal": "0.00"
+        },
+        "settledAmount": {
+          "$numberDecimal": "-300.0"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1650569410446"
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6262f49c6776d037d6497e7c"
+      },
+      "status": "COMPLETED",
+      "tabaPayStatus": "COMPLETED",
+      "qTransactionId": "P2211200000082",
+      "txReferenceId": "T22112000000005",
+      "qCardId": "AD22110000001",
+      "cfiId": "ckb",
+      "clientId": "Bqg2TLEAAct2pYCDjpc7Xg",
+      "subClientId": "0006",
+      "loanReference": "L22110000001",
+      "transactionId": "g5Y3oKmVyY-YeYOPcgZt5A",
+      "businessDate": {
+        "$date": {
+          "$numberLong": "1650585600000"
+        }
+      },
+      "valueDate": {
+        "$date": {
+          "$numberLong": "1650585600000"
+        }
+      },
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1650652316912"
+        }
+      },
+      "type": "PULL",
+      "currency": "840",
+      "amount": {
+        "$numberDecimal": "300.17"
+      },
+      "interchangeFees": {
+        "$numberDecimal": "0.65"
+      },
+      "networkFees": {
+        "$numberDecimal": "0.41"
+      },
+      "tabapayFees": {
+        "$numberDecimal": "0.25"
+      },
+      "convenienceFee": {
+        "$numberDecimal": "0.02"
+      },
+      "responses": [
+        {
+          "sc": 200,
+          "ec": "0",
+          "transactionId": "g5Y3oKmVyY-YeYOPcgZt5A",
+          "network": "Visa",
+          "networkRc": "00",
+          "approvalCode": "518252",
+          "status": "COMPLETED",
+          "fees": {
+            "interchange": {
+              "$numberDecimal": "0.65"
+            },
+            "network": {
+              "$numberDecimal": "0.41"
+            },
+            "tabapay": {
+              "$numberDecimal": "0.25"
+            }
+          },
+          "card": {
+            "last4": "0410",
+            "expirationDate": "202303"
+          }
+        }
+      ],
+      "_class": "TabaPayTransactions",
+      "reconciled": true,
+      "reconciledAt": {
+        "$date": {
+          "$numberLong": "1650742210506"
+        }
+      },
+      "settlementValues": {
+        "interchangeFee": {
+          "$numberDecimal": "-0.65"
+        },
+        "networkFee": {
+          "$numberDecimal": "-0.41"
+        },
+        "tabapayFee": {
+          "$numberDecimal": "-0.25"
+        },
+        "convenienceFee": {
+          "$numberDecimal": "0.02"
+        },
+        "settledAmount": {
+          "$numberDecimal": "300.17"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1650742210506"
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6269e3ebc3cc263ba57c8ee4"
+      },
+      "status": "COMPLETED",
+      "tabaPayStatus": "COMPLETED",
+      "qTransactionId": "P2211800000001",
+      "txReferenceId": "T22118000000001",
+      "qCardId": "AD22109000004",
+      "cfiId": "ckb",
+      "clientId": "Bqg2TLEAAct2pYCDjpc7Xg",
+      "subClientId": "0006",
+      "loanReference": "R22118000001",
+      "transactionId": "QxAHmDoVCi3AKiqtP_RzFA",
+      "businessDate": {
+        "$date": {
+          "$numberLong": "1651017600000"
+        }
+      },
+      "valueDate": {
+        "$date": {
+          "$numberLong": "1651017600000"
+        }
+      },
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1651106795765"
+        }
+      },
+      "type": "PUSH",
+      "currency": "840",
+      "amount": {
+        "$numberDecimal": "400.00"
+      },
+      "interchangeFees": {
+        "$numberDecimal": "0.10"
+      },
+      "networkFees": {
+        "$numberDecimal": "0.25"
+      },
+      "tabapayFees": {
+        "$numberDecimal": "0.25"
+      },
+      "responses": [
+        {
+          "sc": 200,
+          "ec": "0",
+          "transactionId": "QxAHmDoVCi3AKiqtP_RzFA",
+          "network": "VisaFF",
+          "networkRc": "00",
+          "approvalCode": "643236",
+          "status": "COMPLETED",
+          "fees": {
+            "interchange": {
+              "$numberDecimal": "0.10"
+            },
+            "network": {
+              "$numberDecimal": "0.25"
+            },
+            "tabapay": {
+              "$numberDecimal": "0.25"
+            }
+          },
+          "card": {
+            "last4": "4830",
+            "expirationDate": "202205"
+          }
+        }
+      ],
+      "_class": "TabaPayTransactions",
+      "reconciled": true,
+      "reconciledAt": {
+        "$date": {
+          "$numberLong": "1651174211415"
+        }
+      },
+      "settlementValues": {
+        "interchangeFee": {
+          "$numberDecimal": "-0.05"
+        },
+        "networkFee": {
+          "$numberDecimal": "-0.27"
+        },
+        "tabapayFee": {
+          "$numberDecimal": "-0.25"
+        },
+        "convenienceFee": {
+          "$numberDecimal": "0.00"
+        },
+        "settledAmount": {
+          "$numberDecimal": "-400.0"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1651174211415"
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "62864db674907f4b94550408"
+      },
+      "status": "FAILED",
+      "tabaPayStatus": "ERROR",
+      "qTransactionId": "P2213900000016",
+      "txReferenceId": "T22139000000002",
+      "qCardId": "AD22109000003",
+      "cfiId": "ckb",
+      "clientId": "Bqg2TLEAAct2pYCDjpc7Xg",
+      "subClientId": "0006",
+      "loanReference": "L22109000001",
+      "transactionId": "w6EmrcSFOcV8IB-eaHtC8A",
+      "businessDate": {
+        "$date": {
+          "$numberLong": "1652918400000"
+        }
+      },
+      "valueDate": {
+        "$date": {
+          "$numberLong": "1652918400000"
+        }
+      },
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1652968886770"
+        }
+      },
+      "type": "PULL",
+      "networkRC": "05",
+      "currency": "840",
+      "amount": {
+        "$numberDecimal": "169.15"
+      },
+      "convenienceFee": {
+        "$numberDecimal": "0.42"
+      },
+      "responses": [
+        {
+          "sc": 200,
+          "ec": "0",
+          "transactionId": "w6EmrcSFOcV8IB-eaHtC8A",
+          "network": "Visa",
+          "networkRc": "05",
+          "status": "ERROR",
+          "card": {
+            "last4": "3270",
+            "expirationDate": "202409"
+          }
+        }
+      ],
+      "_class": "TabaPayTransactions",
+      "reconciled": true
+    }
+  ],
+  "legaldocs": [
+    {
+      "legalDocId": "2865042b-28b6-4f9c-9453-5d3a0a51f1c0",
+      "type": "MOBILE_APP_PRIVACY",
+      "saveTime": {
+        "$date": {
+          "$numberLong": "1647541253572"
+        }
+      },
+      "_class": "LegalDoc"
+    },
+    {
+      "legalDocId": "3e73c282-1abf-4f85-b111-e97bdb775536",
+      "type": "TERMS",
+      "saveTime": {
+        "$date": {
+          "$numberLong": "1647541275418"
+        }
+      },
+      "_class": "LegalDoc"
+    },
+    {
+      "legalDocId": "98ce2e54-d505-4faa-bcc7-d0749ef13e64",
+      "type": "E_SIGN_CONSENT",
+      "saveTime": {
+        "$date": {
+          "$numberLong": "1647541298099"
+        }
+      },
+      "_class": "LegalDoc"
+    },
+    {
+      "legalDocId": "f93719c7-08f4-4e0a-b074-8e09e2ddd88b",
+      "type": "PREPAID_CARD_TNC",
+      "saveTime": {
+        "$date": {
+          "$numberLong": "1647541322679"
+        }
+      },
+      "_class": "LegalDoc"
+    },
+    {
+      "legalDocId": "18fc9181-ade3-480f-bff8-b879ca37601d",
+      "type": "MOBILE_APP_PRIVACY",
+      "saveTime": {
+        "$date": {
+          "$numberLong": "1647699873456"
+        }
+      },
+      "_class": "LegalDoc"
+    },
+    {
+      "legalDocId": "74d32a03-e7d3-4b8d-9f58-ac5ddfea782f",
+      "type": "TERMS",
+      "saveTime": {
+        "$date": {
+          "$numberLong": "1647699900962"
+        }
+      },
+      "_class": "LegalDoc"
+    },
+    {
+      "legalDocId": "9e720a47-c877-4024-82b7-414c5fa2612f",
+      "type": "E_SIGN_CONSENT",
+      "saveTime": {
+        "$date": {
+          "$numberLong": "1647699925885"
+        }
+      },
+      "_class": "LegalDoc"
+    }
+  ],
+  "settings": {
+    "_id": {
+      "$oid": "60d481b2c8c11e333d810372"
+    },
+    "cfiId": "qa",
+    "createdAt": {
+      "$date": "2021-06-24T12:59:30.939Z"
+    },
+    "updatedAt": {
+      "$date": "2022-02-07T15:48:23.734Z"
+    },
+    "tabaPaySubClientId": "0100",
+    "tabaPaySettlementAccountId": "RQ8V7ZYVCCDuCsJrzHQuKA",
+    "transcardFundingAdminNumber": 5722114,
+    "transcardProgramId": 3920,
+    "transcardStoreName": "SouthState Quilo VC Test 2",
+    "address": {
+      "addressLine1": "212 ",
+      "addressLine2": "N. Main",
+      "city": "Taylor",
+      "county": "ALB",
+      "state": "TX",
+      "zipcode": "76574"
+    },
+    "fundTranscardNostro": {
+      "cfiPortfolioId": "PERSONALLOAN",
+      "cfiSettlementAccountNo": "2345",
+      "cfiSettlementAccountRtn": "9876",
+      "southStateAccountNo": "6789",
+      "southStateAccountRtn": "1234",
+      "southStateThresholdAmount": {
+        "$numberDecimal": "100000.00"
+      },
+      "southStateTopupAmount": {
+        "$numberDecimal": "20000.00"
+      }
+    },
+    "_class": "CfiSettings"
+  },
+  "glsettings" : [],
+  "glaccounts" : []
+}

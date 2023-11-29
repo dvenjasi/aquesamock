@@ -1,0 +1,177 @@
+[
+    {
+      "id": 1,
+      "unit": "A101",
+      "type": "2BHK",
+      "ownername": "Owner 101",
+      "ownerph": 99001234
+    },
+    {
+      "id": 2,
+      "unit": "A102",
+      "type": "2BHK",
+      "ownername": "Owner 102",
+      "ownerph": 99001235
+    },
+    {
+      "id": 3,
+      "unit": "A103",
+      "type": "2BHK",
+      "ownername": "Owner 103",
+      "ownerph": 99001236
+    },
+    {
+      "id": 4,
+      "unit": "A104",
+      "type": "2BHK",
+      "ownername": "Owner 104",
+      "ownerph": 99001237
+    },
+    {
+      "id": 5,
+      "unit": "A105",
+      "type": "2BHK",
+      "ownername": "Owner 105",
+      "ownerph": 99001238
+    },
+    {
+      "id": 6,
+      "unit": "A106",
+      "type": "2BHK",
+      "ownername": "Owner 106",
+      "ownerph": 99001239
+    },
+    {
+      "id": 7,
+      "unit": "A107",
+      "type": "2BHK",
+      "ownername": "Owner 107",
+      "ownerph": 99001240
+    },
+    {
+      "id": 8,
+      "unit": "A108",
+      "type": "2BHK",
+      "ownername": "Owner 108",
+      "ownerph": 99001241
+    },
+    {
+      "id": 9,
+      "unit": "A109",
+      "type": "2BHK",
+      "ownername": "Owner 109",
+      "ownerph": 99001242
+    },
+    {
+      "id": 10,
+      "unit": "A110",
+      "type": "2BHK",
+      "ownername": "Owner 110",
+      "ownerph": 99001243
+    },
+    {
+      "id": 11,
+      "unit": "B101",
+      "type": "3BHK",
+      "ownername": "Owner 111",
+      "ownerph": 99001244
+    },
+    {
+      "id": 12,
+      "unit": "B102",
+      "type": "3BHK",
+      "ownername": "Owner 112",
+      "ownerph": 99001245
+    },
+    {
+      "id": 13,
+      "unit": "B103",
+      "type": "3BHK",
+      "ownername": "Owner 113",
+      "ownerph": 99001246
+    },
+    {
+      "id": 14,
+      "unit": "B104",
+      "type": "3BHK",
+      "ownername": "Owner 114",
+      "ownerph": 99001247
+    },
+    {
+      "id": 15,
+      "unit": "B105",
+      "type": "3BHK",
+      "ownername": "Owner 115",
+      "ownerph": 99001248
+    },
+    {
+      "id": 16,
+      "unit": "B106",
+      "type": "3BHK",
+      "ownername": "Owner 116",
+      "ownerph": 99001249
+    },
+    {
+      "id": 17,
+      "unit": "B107",
+      "type": "3BHK",
+      "ownername": "Owner 117",
+      "ownerph": 99001250
+    },
+    {
+      "id": 18,
+      "unit": "B108",
+      "type": "3BHK",
+      "ownername": "Owner 118",
+      "ownerph": 99001251
+    },
+    {
+      "id": 19,
+      "unit": "B109",
+      "type": "3BHK",
+      "ownername": "Owner 119",
+      "ownerph": 99001252
+    },
+    {
+      "id": 20,
+      "unit": "B110",
+      "type": "3BHK",
+      "ownername": "Owner 120",
+      "ownerph": 99001253
+    },
+    {
+      "id": 21,
+      "unit": "E101",
+      "type": "Villa",
+      "ownername": "Owner 121",
+      "ownerph": 99001254
+    },
+    {
+      "id": 22,
+      "unit": "E102",
+      "type": "Villa",
+      "ownername": "Owner 122",
+      "ownerph": 99001255
+    },
+    {
+      "id": 23,
+      "unit": "E103",
+      "type": "Villa",
+      "ownername": "Owner 123",
+      "ownerph": 99001256
+    },
+    {
+      "id": 24,
+      "unit": "E104",
+      "type": "Villa",
+      "ownername": "Owner 124",
+      "ownerph": 99001257
+    },
+    {
+      "id": 25,
+      "unit": "E105",
+      "type": "Villa",
+      "ownername": "Owner 125",
+      "ownerph": 99001258
+    }
+]

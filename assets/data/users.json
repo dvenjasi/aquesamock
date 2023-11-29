@@ -1,0 +1,177 @@
+[
+    {
+      "userId": 1,
+      "unit": "A101",
+      "type": "Owner",
+      "username": "Resident 101",
+      "userph": 99001234
+    },
+    {
+      "userId": 2,
+      "unit": "A102",
+      "type": "Owner",
+      "username": "Resident 102",
+      "userph": 99001235
+    },
+    {
+      "userId": 3,
+      "unit": "A103",
+      "type": "Owner",
+      "username": "Resident 103",
+      "userph": 99001236
+    },
+    {
+      "userId": 4,
+      "unit": "A104",
+      "type": "Owner",
+      "username": "Resident 104",
+      "userph": 99001237
+    },
+    {
+      "userId": 5,
+      "unit": "A105",
+      "type": "Resident",
+      "username": "Resident 105",
+      "userph": 99001238
+    },
+    {
+      "userId": 6,
+      "unit": "A106",
+      "type": "Owner",
+      "username": "Resident 106",
+      "userph": 99001239
+    },
+    {
+      "userId": 7,
+      "unit": "A107",
+      "type": "Owner",
+      "username": "Resident 107",
+      "userph": 99001240
+    },
+    {
+      "userId": 8,
+      "unit": "A108",
+      "type": "Owner",
+      "username": "Resident 108",
+      "userph": 99001241
+    },
+    {
+      "userId": 9,
+      "unit": "A109",
+      "type": "Owner",
+      "username": "Resident 109",
+      "userph": 99001242
+    },
+    {
+      "userId": 10,
+      "unit": "A110",
+      "type": "Owner",
+      "username": "Resident 110",
+      "userph": 99001243
+    },
+    {
+      "userId": 11,
+      "unit": "B101",
+      "type": "Tenent",
+      "username": "Resident 111",
+      "userph": 99001244
+    },
+    {
+      "userId": 12,
+      "unit": "B102",
+      "type": "Tenent",
+      "username": "Resident 112",
+      "userph": 99001245
+    },
+    {
+      "userId": 13,
+      "unit": "B103",
+      "type": "Tenent",
+      "username": "Resident 113",
+      "userph": 99001246
+    },
+    {
+      "userId": 14,
+      "unit": "B104",
+      "type": "Tenent",
+      "username": "Resident 114",
+      "userph": 99001247
+    },
+    {
+      "userId": 15,
+      "unit": "B105",
+      "type": "Tenent",
+      "username": "Resident 115",
+      "userph": 99001248
+    },
+    {
+      "userId": 16,
+      "unit": "B106",
+      "type": "Tenent",
+      "username": "Resident 116",
+      "userph": 99001249
+    },
+    {
+      "userId": 17,
+      "unit": "B107",
+      "type": "Tenent",
+      "username": "Resident 117",
+      "userph": 99001250
+    },
+    {
+      "userId": 18,
+      "unit": "B108",
+      "type": "Tenent",
+      "username": "Resident 118",
+      "userph": 99001251
+    },
+    {
+      "userId": 19,
+      "unit": "B109",
+      "type": "Tenent",
+      "username": "Resident 119",
+      "userph": 99001252
+    },
+    {
+      "userId": 20,
+      "unit": "B110",
+      "type": "Tenent",
+      "username": "Resident 120",
+      "userph": 99001253
+    },
+    {
+      "userId": 21,
+      "unit": "E101",
+      "type": "Member",
+      "username": "Resident 121",
+      "userph": 99001254
+    },
+    {
+      "userId": 22,
+      "unit": "E102",
+      "type": "Member",
+      "username": "Resident 122",
+      "userph": 99001255
+    },
+    {
+      "userId": 23,
+      "unit": "E103",
+      "type": "Member",
+      "username": "Resident 123",
+      "userph": 99001256
+    },
+    {
+      "userId": 24,
+      "unit": "E104",
+      "type": "Member",
+      "username": "Resident 124",
+      "userph": 99001257
+    },
+    {
+      "userId": 25,
+      "unit": "E105",
+      "type": "Member",
+      "username": "Resident 125",
+      "userph": 99001258
+    }
+]

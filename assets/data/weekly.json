@@ -1,0 +1,9 @@
+[
+  {"unit":"all", "date":"09-Oct-23", "day": "Mon", "value": 10000},
+  {"unit":"all", "date":"10-Oct-23", "day": "Tue", "value": 11000},
+  {"unit":"all", "date":"11-Oct-23", "day": "Wed", "value": 11535},
+  {"unit":"all", "date":"12-Oct-23", "day": "Thu", "value": 10984},
+  {"unit":"all", "date":"13-Oct-23", "day": "Fri", "value": 12034},
+  {"unit":"all", "date":"14-Oct-23", "day": "Sat", "value": 11923},
+  {"unit":"all", "date":"15-Oct-23", "day": "Sun", "value": 13002}
+]
