@@ -1,0 +1,8 @@
+[
+  {"total":"12000", "month":"Sep-23", "fixedcost": 10030, "varcost": 400.12},
+  {"total":"11000", "month":"Aug-23", "fixedcost": 11830, "varcost": 419.12},
+  {"total":"10500", "month":"Jul-23", "fixedcost": 12037, "varcost": 450.12},
+  {"total":"12678", "month":"Jun-23", "fixedcost": 13042, "varcost": 490.12},
+  {"total":"11987", "month":"May-23", "fixedcost": 11024, "varcost": 405.12},
+  {"total":"11345", "month":"Apr-23", "fixedcost": 12200, "varcost": 426.12}
+]
