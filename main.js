@@ -246,6 +246,32 @@ var DropDownDirective = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/_models/billsetup.model.ts":
+/*!********************************************!*\
+  !*** ./src/app/_models/billsetup.model.ts ***!
+  \********************************************/
+/*! exports provided: BillSetup */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BillSetup", function() { return BillSetup; });
+;
+var BillSetup = /** @class */ (function () {
+    function BillSetup(month, total, fixedcost, varcost) {
+        this.month = month;
+        this.total = total;
+        this.fixedcost = fixedcost;
+        this.varcost = varcost;
+    }
+    return BillSetup;
+}());
+
+;
+
+
+/***/ }),
+
 /***/ "./src/app/_models/community.model.ts":
 /*!********************************************!*\
   !*** ./src/app/_models/community.model.ts ***!
@@ -488,8 +514,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _estate_daily_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./estate/daily.component */ "./src/app/estate/daily.component.ts");
 /* harmony import */ var _estate_weekly_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./estate/weekly.component */ "./src/app/estate/weekly.component.ts");
 /* harmony import */ var _estate_billing_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./estate/billing.component */ "./src/app/estate/billing.component.ts");
-/* harmony import */ var _customer_community_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./customer/community.component */ "./src/app/customer/community.component.ts");
-/* harmony import */ var _customer_dwsetup_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./customer/dwsetup.component */ "./src/app/customer/dwsetup.component.ts");
+/* harmony import */ var _estate_billsetup_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./estate/billsetup.component */ "./src/app/estate/billsetup.component.ts");
+/* harmony import */ var _customer_community_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./customer/community.component */ "./src/app/customer/community.component.ts");
+/* harmony import */ var _customer_dwsetup_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./customer/dwsetup.component */ "./src/app/customer/dwsetup.component.ts");
 
 
 
@@ -520,6 +547,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
 var routes = [
     { path: 'login', component: _auth_login_component__WEBPACK_IMPORTED_MODULE_3__["SigninComponent"] },
     { path: 'notification', component: _customer_notification_component__WEBPACK_IMPORTED_MODULE_4__["NotificationComponent"] },
@@ -529,8 +557,9 @@ var routes = [
     { path: 'daily', component: _estate_daily_component__WEBPACK_IMPORTED_MODULE_8__["EstateDailyConsumption"] },
     { path: 'weekly', component: _estate_weekly_component__WEBPACK_IMPORTED_MODULE_9__["EstateWeeklyConsumption"] },
     { path: 'monthlybilling', component: _estate_billing_component__WEBPACK_IMPORTED_MODULE_10__["EstateMonthlyBilling"] },
-    { path: 'community', component: _customer_community_component__WEBPACK_IMPORTED_MODULE_11__["CommunityComponent"] },
-    { path: 'comtysetup', component: _customer_dwsetup_component__WEBPACK_IMPORTED_MODULE_12__["DWSetupComponent"] },
+    { path: 'community', component: _customer_community_component__WEBPACK_IMPORTED_MODULE_12__["CommunityComponent"] },
+    { path: 'comtysetup', component: _customer_dwsetup_component__WEBPACK_IMPORTED_MODULE_13__["DWSetupComponent"] },
+    { path: 'billingsetup', component: _estate_billsetup_component__WEBPACK_IMPORTED_MODULE_11__["EstateMonthlyBillingSetup"] },
     { path: '**', component: _auth_login_component__WEBPACK_IMPORTED_MODULE_3__["SigninComponent"] }
 ];
 var AppRoutingModule = /** @class */ (function () {
@@ -641,15 +670,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _auth_authtoken__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./auth/authtoken */ "./src/app/auth/authtoken.ts");
 /* harmony import */ var _auth_login_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./auth/login.component */ "./src/app/auth/login.component.ts");
 /* harmony import */ var _directives_dropdown_directive__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./_directives/dropdown.directive */ "./src/app/_directives/dropdown.directive.ts");
-/* harmony import */ var _customer_notification_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./customer/notification.component */ "./src/app/customer/notification.component.ts");
-/* harmony import */ var _estate_dwellings_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./estate/dwellings.component */ "./src/app/estate/dwellings.component.ts");
-/* harmony import */ var _estate_users_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./estate/users.component */ "./src/app/estate/users.component.ts");
-/* harmony import */ var _estate_monthly_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./estate/monthly.component */ "./src/app/estate/monthly.component.ts");
-/* harmony import */ var _estate_daily_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./estate/daily.component */ "./src/app/estate/daily.component.ts");
-/* harmony import */ var _estate_weekly_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./estate/weekly.component */ "./src/app/estate/weekly.component.ts");
-/* harmony import */ var _estate_billing_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./estate/billing.component */ "./src/app/estate/billing.component.ts");
+/* harmony import */ var _estate_dwellings_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./estate/dwellings.component */ "./src/app/estate/dwellings.component.ts");
+/* harmony import */ var _estate_users_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./estate/users.component */ "./src/app/estate/users.component.ts");
+/* harmony import */ var _estate_monthly_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./estate/monthly.component */ "./src/app/estate/monthly.component.ts");
+/* harmony import */ var _estate_daily_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./estate/daily.component */ "./src/app/estate/daily.component.ts");
+/* harmony import */ var _estate_weekly_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./estate/weekly.component */ "./src/app/estate/weekly.component.ts");
+/* harmony import */ var _estate_billing_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./estate/billing.component */ "./src/app/estate/billing.component.ts");
+/* harmony import */ var _estate_billsetup_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./estate/billsetup.component */ "./src/app/estate/billsetup.component.ts");
 /* harmony import */ var _customer_community_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./customer/community.component */ "./src/app/customer/community.component.ts");
 /* harmony import */ var _customer_dwsetup_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./customer/dwsetup.component */ "./src/app/customer/dwsetup.component.ts");
+/* harmony import */ var _customer_notification_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./customer/notification.component */ "./src/app/customer/notification.component.ts");
 
 
 
@@ -709,6 +739,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
@@ -716,9 +747,9 @@ var AppModule = /** @class */ (function () {
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
             declarations: [
                 _app_component__WEBPACK_IMPORTED_MODULE_14__["AppComponent"], _vrtl_menu_vrtl_menu_component__WEBPACK_IMPORTED_MODULE_15__["VrtlMenuComponent"], _auth_login_component__WEBPACK_IMPORTED_MODULE_18__["SigninComponent"], _directives_dropdown_directive__WEBPACK_IMPORTED_MODULE_19__["DropDownDirective"],
-                _customer_notification_component__WEBPACK_IMPORTED_MODULE_20__["NotificationComponent"],
-                _estate_dwellings_component__WEBPACK_IMPORTED_MODULE_21__["estateDwellingsComponent"], _estate_monthly_component__WEBPACK_IMPORTED_MODULE_23__["EstateMonthlyConsumption"], _estate_daily_component__WEBPACK_IMPORTED_MODULE_24__["EstateDailyConsumption"], _estate_weekly_component__WEBPACK_IMPORTED_MODULE_25__["EstateWeeklyConsumption"],
-                _estate_users_component__WEBPACK_IMPORTED_MODULE_22__["estateUsersComponent"], _estate_billing_component__WEBPACK_IMPORTED_MODULE_26__["EstateMonthlyBilling"], _customer_community_component__WEBPACK_IMPORTED_MODULE_27__["CommunityComponent"], _customer_dwsetup_component__WEBPACK_IMPORTED_MODULE_28__["DWSetupComponent"]
+                _customer_notification_component__WEBPACK_IMPORTED_MODULE_29__["NotificationComponent"], _estate_billsetup_component__WEBPACK_IMPORTED_MODULE_26__["EstateMonthlyBillingSetup"],
+                _estate_dwellings_component__WEBPACK_IMPORTED_MODULE_20__["estateDwellingsComponent"], _estate_monthly_component__WEBPACK_IMPORTED_MODULE_22__["EstateMonthlyConsumption"], _estate_daily_component__WEBPACK_IMPORTED_MODULE_23__["EstateDailyConsumption"], _estate_weekly_component__WEBPACK_IMPORTED_MODULE_24__["EstateWeeklyConsumption"],
+                _estate_users_component__WEBPACK_IMPORTED_MODULE_21__["estateUsersComponent"], _estate_billing_component__WEBPACK_IMPORTED_MODULE_25__["EstateMonthlyBilling"], _customer_community_component__WEBPACK_IMPORTED_MODULE_27__["CommunityComponent"], _customer_dwsetup_component__WEBPACK_IMPORTED_MODULE_28__["DWSetupComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClientModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_4__["FormsModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_5__["BrowserAnimationsModule"],
@@ -1604,6 +1635,126 @@ var EstateMonthlyBilling = /** @class */ (function () {
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_services_data_service__WEBPACK_IMPORTED_MODULE_4__["DataService"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"], primeng_primeng__WEBPACK_IMPORTED_MODULE_3__["ConfirmationService"]])
     ], EstateMonthlyBilling);
     return EstateMonthlyBilling;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/estate/billsetup.component.html":
+/*!*************************************************!*\
+  !*** ./src/app/estate/billsetup.component.html ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<!-- <p-confirmDialog header=\"Delete Confirmation\" icon=\"fa fa-trash\" width=\"425\"></p-confirmDialog> -->\n\n<p-growl [value]=\"msgs\"></p-growl>\n\n<div class=\"container-fluid margin-top-10\">\n  <h4 class=\"table-head\">Estate Billing Setup For Monthly Water Consumption</h4>\n\n  <div>\n  <p-dataTable #dt [value]=\"billingSetupData\" [globalFilter]=\"gb\" [loading]=\"loading\" loadingIcon=\"fa-spinner\" [rows]=\"10\" [paginator]=\"true\"\n    dataKey=\"month\" [pageLinks]=\"5\" [rowsPerPageOptions]=\"[10,25,50,100]\" paginatorPosition=\"top\" [reorderableColumns]=\"true\"\n    [resizableColumns]=\"true\" rowHover=\"true\" selectionMode=\"single\" [(selection)]=\"billsetup\" (onRowSelect)=\"onBillSelect($event)\"\n    (onRowUnselect)=\"onBillUnSelect($event)\">\n    <p-header>\n      <div class=\"ui-helper-clearfix\" style=\"width:100%\">\n        <i class=\"fa fa-search\" style=\"float:left; vertical-align: middle\">&nbsp;&nbsp;</i>\n        <input #gb type=\"text\" pInputText size=\"50\" placeholder=\"Search Text\" style=\"float:left\">\n        <!-- <button type=\"button\" pButton icon=\"fa fa-file-o\" iconPos=\"left\" label=\"Download CSV\" (click)=\"dt.exportCSV()\" style=\"float:right\"></button> -->\n      </div>\n    </p-header>\n\n    <p-column field=\"month\" header=\"Month\" [sortable]=\"true\"></p-column>\n    <p-column field=\"total\" header=\"Total Consumption\" [sortable]=\"true\"></p-column>\n    <p-column field=\"fixedcost\" header=\"Fixed Cost\" [sortable]=\"true\"></p-column>\n    <p-column field=\"varcost\" header=\"Variable Cost\" [sortable]=\"true\"></p-column>\n\n    <p-footer>\n      <div class=\"ui-helper-clearfix\" style=\"width:100%\">\n        <button type=\"button\" pButton icon=\"fa fa-plus\" style=\"float:left\" (click)=\"onAdd()\" label=\"Add\" [ngStyle]=\"{'margin-right':'1em'}\"></button>\n        <button type=\"button\" pButton icon=\"fa fa-pencil\" style=\"float:left\" (click)=\"onEdit(billsetup)\" label=\"Edit\" *ngIf=\"selectRec\" [ngStyle]=\"{'margin-right':'1em'}\"></button>\n        <button type=\"button\" pButton icon=\"fa fa-search\" style=\"float:left\" (click)=\"onEdit(billsetup)\" label=\"View\" *ngIf=\"selectRec\"></button>\n      <!-- <button type=\"button\" pButton icon=\"fa fa-download\" style=\"float:left\" (click)=\"onDownload()\" label=\"Download Data\"></button> -->\n      </div>\n    </p-footer>\n  </p-dataTable>\n  </div>\n\n  <form #f=\"ngForm\" novalidate *ngIf=\"showEditDlg\">\n    <fieldset [disabled]=\"!isEditable(rec)\">\n      <p-dialog showEffect=\"fade\" [(minWidth)]=\"dlgWidth\" [modal]=\"true\" [responsive]=\"true\" [(header)]=\"hdr\" [(visible)]=\"showEditDlg\" (onShow)=\"onDlgShow($event)\"\n        (onHide)=\"onDlgHide($event)\">\n        <div class=\"ui-grid ui-grid-responsive ui-fluid ui-grid-pad\" *ngIf=\"rec\">\n          <div class=\"ui-grid-row\">\n            <div class=\"ui-grid-col-2\">\n              <label for=\"comtyName\">Month</label>\n            </div>\n            <div class=\"ui-grid-col-10\">\n              <input pInputText id=\"month\" name=\"month\" [(ngModel)]=\"rec.month\" required />\n            </div>\n          </div>\n          <div class=\"ui-grid-row\">\n            <div class=\"ui-grid-col-2\">\n              <label for=\"city\">Fixed Cost</label>\n            </div>\n            <div class=\"ui-grid-col-4\">\n              <input pInputText id=\"fixedcost\" name=\"fixedcost\" [(ngModel)]=\"rec.fixedcost\" required />\n            </div>\n            <div class=\"ui-grid-col-2\">\n              <label for=\"state\">Variable Cost</label>\n            </div>\n            <div class=\"ui-grid-col-4\">\n              <input pInputText id=\"varcost\" name=\"varcost\" [(ngModel)]=\"rec.varcost\" required />\n            </div>\n          </div>\n        </div>\n        <p-footer>\n          <button class=\"ui-button-success\" pButton icon=\"fa-check\" (click)=\"onSave()\" label=\"Save\" [disabled]=\"!f.form.valid\" *ngIf=\"rec.statusText != 'Deleted'\"></button>\n        </p-footer>\n      </p-dialog>\n    </fieldset>\n  </form>\n\n</div>\n\n\n"
+
+/***/ }),
+
+/***/ "./src/app/estate/billsetup.component.ts":
+/*!***********************************************!*\
+  !*** ./src/app/estate/billsetup.component.ts ***!
+  \***********************************************/
+/*! exports provided: EstateMonthlyBillingSetup */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EstateMonthlyBillingSetup", function() { return EstateMonthlyBillingSetup; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var primeng_primeng__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! primeng/primeng */ "./node_modules/primeng/primeng.js");
+/* harmony import */ var primeng_primeng__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(primeng_primeng__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _services_data_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../_services/data.service */ "./src/app/_services/data.service.ts");
+/* harmony import */ var _models_billsetup_model__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../_models/billsetup.model */ "./src/app/_models/billsetup.model.ts");
+/* harmony import */ var _common_util__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../_common/util */ "./src/app/_common/util.ts");
+
+
+
+
+
+
+
+var EstateMonthlyBillingSetup = /** @class */ (function () {
+    function EstateMonthlyBillingSetup(service, route, confirm) {
+        this.service = service;
+        this.route = route;
+        this.confirm = confirm;
+        this.selectRec = false;
+        this.showEditDlg = false;
+    }
+    EstateMonthlyBillingSetup.prototype.ngOnInit = function () {
+        this.showEditDlg = false;
+        this.hdr = 'Estate Billing Setup For Monthly Water Consumption';
+        console.log("Billing Called");
+        __LOCAL ? this.getDummyBillingSetupData() : this.getBillingData();
+    };
+    EstateMonthlyBillingSetup.prototype.getDummyBillingSetupData = function () {
+        var _this = this;
+        this.loading = true;
+        var params = [];
+        this.service.getDummyData("./assets/data/billsetup.json", this.callBackBillingSetupData.bind(this), { params: params });
+        setTimeout(function () { _this.loading = false; }, 30000);
+    };
+    EstateMonthlyBillingSetup.prototype.getBillingData = function () {
+    };
+    EstateMonthlyBillingSetup.prototype.callBackBillingSetupData = function (_data) {
+        // console.log(_data);
+        this.billingSetupData = _data;
+        this.loading = false;
+    };
+    EstateMonthlyBillingSetup.prototype.onBillSelect = function (event) {
+        // console.log(event);
+        this.selectRec = true;
+    };
+    EstateMonthlyBillingSetup.prototype.onBillUnSelect = function (event) {
+        // console.log(event);
+        this.selectRec = false;
+    };
+    EstateMonthlyBillingSetup.prototype.copyForUpdate = function (from) {
+        var to = _common_util__WEBPACK_IMPORTED_MODULE_6__["Util"].clone(from);
+        return to;
+    };
+    EstateMonthlyBillingSetup.prototype.isEditable = function (sch) {
+        if (!this.selectRec)
+            return true;
+        if (sch == null || sch == undefined || !this.selectRec)
+            return false;
+    };
+    EstateMonthlyBillingSetup.prototype.onEdit = function (event) {
+        this.selectRec = true;
+        this.rec = _common_util__WEBPACK_IMPORTED_MODULE_6__["Util"].clone(event);
+        this.hdr = this.isEditable(this.rec) ? 'Update Billing Setup' : 'View Billing Setup';
+        // this.setFormData();
+        this.currRec = this.copyForUpdate(this.rec);
+        this.showEditDlg = true;
+    };
+    EstateMonthlyBillingSetup.prototype.onAdd = function () {
+        this.rec = new _models_billsetup_model__WEBPACK_IMPORTED_MODULE_5__["BillSetup"]('');
+        this.showEditDlg = true;
+        this.selectRec = false;
+        this.hdr = 'Add Billing Setup';
+    };
+    EstateMonthlyBillingSetup.prototype.changeMonth = function (event) {
+        console.log("Month Changed", event);
+    };
+    EstateMonthlyBillingSetup.prototype.onDlgShow = function (event) {
+        if (this.selectRec) {
+        }
+    };
+    EstateMonthlyBillingSetup.prototype.onDlgHide = function (event) {
+        // console.log(event);
+    };
+    EstateMonthlyBillingSetup = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'menu-billing',
+            template: __webpack_require__(/*! ./billsetup.component.html */ "./src/app/estate/billsetup.component.html")
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_services_data_service__WEBPACK_IMPORTED_MODULE_4__["DataService"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"], primeng_primeng__WEBPACK_IMPORTED_MODULE_3__["ConfirmationService"]])
+    ], EstateMonthlyBillingSetup);
+    return EstateMonthlyBillingSetup;
 }());
 
 
